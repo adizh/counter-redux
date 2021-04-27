@@ -11,6 +11,7 @@ const counter=useSelector(s=>s.counter)
             <button onClick={()=>dispatch(increment(5))}>add</button>
             <button onClick={()=>dispatch(decrement())}>decrement</button>
             <button onClick={()=>dispatch(reset())}>reset</button>
+            <p>hello.world</p>
         </div>
     );
 };
